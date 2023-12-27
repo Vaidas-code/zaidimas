@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="zaidimas.css">
+        <title>Quadratic Boxes Grid</title>
+    </head>
+    <body>
+        <div class="top">
+            <h1>Žaidimas surask du!</h1>
+            <div class="timer">
+                <p>Laikas: <span id="timer">00:00:00</span></p>
+            </div>
+        </div>
+
+        <div class="name-input">
+            <label for="name">Įveskite savo vardą</label><br>
+            <input type="text" id="name" name="name" placeholder="Vardas">
+            <button class="submit-button">Pateikti</button>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid" id="boxGrid">
+            </div>
+            <button class="start-button">Pradėti</button>
+            <button class="retry-button">Iš Naujo</button>
+        </div>
+
+        <div class="leaderboard">
+            <table>
+                <tr>
+                    <th> Vardas </th>
+                    <th> Laikas </th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="zaidimas.js"></script>
+    </body>
+</html>
